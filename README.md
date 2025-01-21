@@ -76,31 +76,31 @@ These notebooks were designed to be run using a virtual machine on a cloud compu
 
 #### Tutorial 2: Analysis of read counts using R/DESeq2.
 
-**[Bulk_RNA-Seq_Tutorials/Bulk_RNA-Seq_Mouse/Tutorial_2_DEG_mouse.ipynb](Bulk_RNA-Seq_Tutorials/Bulk_RNA-Seq_Mouse/Tutorial_2_DEG_mouse.ipynb) - Mouse workflow starting with read counts.
+[Bulk_RNA-Seq_Tutorials/Bulk_RNA-Seq_Mouse/Tutorial_2_DEG_mouse.ipynb](Bulk_RNA-Seq_Tutorials/Bulk_RNA-Seq_Mouse/Tutorial_2_DEG_mouse.ipynb) - Mouse workflow starting with read counts.
 
-**[Bulk_RNA-Seq_Tutorials/Bulk_RNA-Seq_Zebrafish/Tutorial_2_DEG_zebrafish.ipynb](Bulk_RNA-Seq_Tutorials/Bulk_RNA-Seq_Mouse/Tutorial_2_DEG_zebrafish.ipynb) - Zebrafish workflow workflow starting with read counts.
+[Bulk_RNA-Seq_Tutorials/Bulk_RNA-Seq_Zebrafish/Tutorial_2_DEG_zebrafish.ipynb](Bulk_RNA-Seq_Tutorials/Bulk_RNA-Seq_Mouse/Tutorial_2_DEG_zebrafish.ipynb) - Zebrafish workflow workflow starting with read counts.
 
-**[Bulk_RNA-Seq_Tutorials/Bulk_RNA-Seq_C_elegans/Tutorial_2_DEG_c_elegans.ipynb](Bulk_RNA-Seq_C_elegans/Tutorial_2_DEG_c_elegans.ipynb) - *C. elegans* workflow workflow starting with read counts.
+[Bulk_RNA-Seq_Tutorials/Bulk_RNA-Seq_C_elegans/Tutorial_2_DEG_c_elegans.ipynb](Bulk_RNA-Seq_C_elegans/Tutorial_2_DEG_c_elegans.ipynb) - *C. elegans* workflow workflow starting with read counts.
 
 #### Tutorial 2B: Analysis of mouse transcription factor networks using NetAct.
 
-**[Bulk_RNA-Seq_Tutorials/Bulk_RNA-Seq_Mouse/Tutorial_2B_NetAct_mouse.ipynb](Bulk_RNA-Seq_Tutorials/Bulk_RNA-Seq_Mouse/Tutorial_2B_NetAct_mouse.ipynb) - Mouse workflow starting with read counts.
+[Bulk_RNA-Seq_Tutorials/Bulk_RNA-Seq_Mouse/Tutorial_2B_NetAct_mouse.ipynb](Bulk_RNA-Seq_Tutorials/Bulk_RNA-Seq_Mouse/Tutorial_2B_NetAct_mouse.ipynb) - Mouse workflow starting with read counts.
 
 ### Species-Specific Small RNA-Seq Workflows
 
 #### Tutorial 3: Analysis of small RNA-Seq reads using miRGeneDB annotation of microRNAs with R/DESeq2.
 
-**[Small_RNA-Seq_Tutorials/Small_RNA-Seq_Mouse/Tutorial_3_miRNA_mouse.ipynb](Small_RNA-Seq_Tutorials/Small_RNA-Seq_Mouse/Tutorial_3_miRNA_mouse.ipynb) - Mouse workflow starting with read counts.
+[Small_RNA-Seq_Tutorials/Small_RNA-Seq_Mouse/Tutorial_3_miRNA_mouse.ipynb](Small_RNA-Seq_Tutorials/Small_RNA-Seq_Mouse/Tutorial_3_miRNA_mouse.ipynb) - Mouse workflow starting with read counts.
 
-**[Small_RNA-Seq_Tutorials/Small_RNA-Seq_Zebrafish/Tutorial_3_miRNA_zebrafish.ipynb](Small_RNA-Seq_Tutorials/Small_RNA-Seq_Zebrafish/Tutorial_3_miRNA_zebrafish.ipynb) - Zebrafish workflow workflow starting with read counts.
+[Small_RNA-Seq_Tutorials/Small_RNA-Seq_Zebrafish/Tutorial_3_miRNA_zebrafish.ipynb](Small_RNA-Seq_Tutorials/Small_RNA-Seq_Zebrafish/Tutorial_3_miRNA_zebrafish.ipynb) - Zebrafish workflow workflow starting with read counts.
 
-**[Small_RNA-Seq_Tutorials/Small_RNA-Seq_C_elegans/Tutorial_3_miRNA_c_elegans.ipynb](Small_RNA-Seq_Tutorials/Small_RNA-Seq_C_elegans/Tutorial_3_miRNA_c_elegans.ipynb) - *C. elegans* workflow workflow starting with read counts.
+[Small_RNA-Seq_Tutorials/Small_RNA-Seq_C_elegans/Tutorial_3_miRNA_c_elegans.ipynb](Small_RNA-Seq_Tutorials/Small_RNA-Seq_C_elegans/Tutorial_3_miRNA_c_elegans.ipynb) - *C. elegans* workflow workflow starting with read counts.
 
 ### Single Cell RNA-Seq Workflows
 
 #### Tutorial 4: Single Cell RNA-Seq Workflows using R/seurat.
 
-**[Single_Cell_RNA-Seq_Tutorials/Single_Cell_RNA-Seq_Mouse/Tutorial_4_scRNA-Seq_mouse.ipynb](Single_Cell_RNA-Seq_Tutorials/Single_Cell_RNA-Seq_Mouse/Tutorial_4_scRNA-Seq_mouse.ipynb) - Mouse workflow starting with read counts.
+[Single_Cell_RNA-Seq_Tutorials/Single_Cell_RNA-Seq_Mouse/Tutorial_4_scRNA-Seq_mouse.ipynb](Single_Cell_RNA-Seq_Tutorials/Single_Cell_RNA-Seq_Mouse/Tutorial_4_scRNA-Seq_mouse.ipynb) - Mouse workflow starting with read counts.
 
 ## Data
 
