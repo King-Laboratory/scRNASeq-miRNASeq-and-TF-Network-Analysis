@@ -1,62 +1,37 @@
 [comment]: <> (Hi. If you are seeing this message, please open this file with markdown preview or jupyter notebook. You can do this by right clicking on the readme file and picking 'open with'.)
-![course-card](images/module_anchor_image.png)
-# University of Maine Cloud Training Tutorials for RNA-seq and Network Analysis
 
-## Overview
+# Gene Expression Analysis with RNA-Seq and Network Analysis
+---------------------------------
+<img src="images/module_anchor_image.png" width="400" />
 
-Included here are several tutorials in the form of 'Jupyter notebooks'.
+## **Contents**
 
-The purpose of these tutorials is to help users familiarize themselves with the cloud computing in the specific context of running bioinformatics workflows. Here is a link to a [YouTube video](https://youtube.com) that gives you an overview of the tutorials.
++ [Overview](#overview)
++ [Background](#background)
++ [Workflows](#workflows)
++ [Data](#data)
++ [Getting Started](#getting-started)
++ [Funding](#funding)
++ [License for Data](#license-for-data)
 
-These tutorials do this by going step-by-step through specific workflows for bulk RNA-Seq, small RNA-Seq and single cell RNA-Seq (scRNA-Seq). These workflows cover the start to finish of basic bioinformatics analysis; starting from downloading raw sequence data, and extending to differential gene expression analysis, and producing common plots in R.
+## **Overview**
 
-## Table of Contents
+The purpose of these tutorials is to help users familiarize themselves with RNA sequencing (RNA-Seq) analysis workflows using Cloud computing. Here is a link to a [YouTube video](https://youtube.com) that gives you an overview of the tutorials.
 
-[Requirements](#requirements)  
-[Getting Started](#getting-started)  
-[Workflows](#workflows)  
-[Data](#data)  
-[Support Forum Thanks](#support-forum-thanks)  
-[Funding](#funding)  
-   
+These tutorials do this by going step-by-step through specific workflows for bulk RNA-Seq, small RNA-Seq and single cell RNA-Seq (scRNA-Seq). To make these tutorials applicable to researchers who use different model organisms, we provide workflows for mouse, zebrafish and *C. elegans*. The bulk RNA-Seq and small RNA-Seq workflows cover the start to finish of basic bioinformatics analysis; starting from downloading raw sequence data, and extending to differential gene expression analysis, and producing common plots in R. For mouse, we provide transcription factor network analysis using NetAct ([Su *et al. Genome Biol.* (2022)](https://pubmed.ncbi.nlm.nih.gov/36575445/)) and scRNA-Seq workflows.
 
-## Requirements
+<img src="images/Cloud_Modules.png" width="800" />
 
-These tutorials were designed to be used on cloud computing platforms, with the aim of requiring nothing but the files within this GitHub repository.
+## **Background**
 
-With this in mind, our tutorials use Jupyter Notebook files, which Google Cloud Platform, Amazon Web Service, and Microsoft Azure all provide support for. Therefore, requirements should only require creation of a virtual machine on one of these providers, and the downloading of this github's files to that machine.
+RNA-Seq using high-throughput sequencing to characterize gene expression. Typical RNA-Seq experiments are as follows:
++ Bulk RNA-Seq - Characterization of messenger RNA (mRNA) expressed in bulk tissue(s) or cells. As more than 90% of RNA in cells are ribosomal RNA (rRNA), bulk RNA-Seq libraries deplete these rRNA using poly-A tail selection of rRNA depletion.
++ Small RNA-Seq - Characterization of mature microRNA products or other short RNAs, such as tRNA-dervied fragments, expressed in bulk tissue(s) or cells.
++ Single-Cell RNA-Seq (scRNA-Seq) - Characterization of messenger RNA (mRNA) expressed in single cells.
 
-For more information on creating a virtual machine and downloading our GitHub repo to that machine, we have a getting started section below. Currently this section only includes information on how to do this using Google Cloud Platform.
+## **Workflows**
 
-## Getting Started
-
-This repository contains several notebook files which serve as bioinformatics workflow tutorials.
-
-The below steps guide you through setting up a virtual machine on Google Cloud Platform, downloading our tutorial files, and running those files. 
-
-Accordingly, before starting, make sure you have a google account and have access to a Google Cloud Platform Project.
-
-Once you have these, you can begin by first navigating to https://console.cloud.google.com/ and logging in with your credentials. Then, in the top left of the screen, navigate to 'select a project', and choose the project you belong to.
-
-This tutorial will cost you just less than $x.xx assuming a n1-standard-8 machine, and assuming you delete the virtual machine and the storage bucket after you finish the tutorial. You can save some time by using an n2 machine, but it will cost a little bit more (thought not that much). 
-
-### Creating a user managed notebook 
-
-Follow the steps highlighted [here](https://github.com/STRIDES/NIHCloudLabGCP/blob/main/docs/vertexai.md) to create a new user-managed notebook in AWS SageMaker. Follow steps 1-8 and be especially careful to enable idle shutdown as highlighted in step 7. For this module you should select Debian 10 and R 4.2 in the Environment tab in step 5. In step 6 in the Machine type tab, select n1-standard-4 from the dropdown box.
-
-To clone this repository, use the Git command `git clone https://github.com/King-Laboratory/scRNASeq-miRNASeq-and-TF-Network-Analysis.git` in the dropdown menu option in Jupyter notebook. Please make sure you only enter the link for the repository that you want to clone. There are other bioinformatics related learning modules available in the [NIGMS Repository](https://github.com/NIGMS). This should download our repo, and the tutorial files inside, into a folder called 'RNA-Seq-Differential-Expression-Analysis'. Double click this folder now. Inside you will find all our tutorial files, which you can double click and run.
-
-### Stopping Your Virtual Machine
-
-When you are finished running code, you can turn off your virtual machine to prevent unneeded billing or resource use by checking your notebook and pushing the **Stop** button.
-
-## Workflows
-
-Our tutorials are broken down into 'workflows'. Each notebook file covers a specific workflow, which contains written and visual commentary, as well as the actual step-by-step code for running that workflow analysis. 
-
-These notebooks were designed to be run using a virtual machine on a cloud computing provider. For more information on how to do this; navigate to the [Getting Started](#getting-started) section. Feel free to explore and run the workflows in any order you like. 
-
-![RNA-Seq workflow](images/Cloud_Modules.png)
+Our tutorials guide a user through running a particular analysis workflow for a specific dataset for either mouse, zebrafish or *C. elegans*. Each notebook demonstrates a specific workflow with instructions and code for each step in the workflow. These notebooks were designed to be run using AWS SageMaker. For more information on how to do this; navigate to the [Getting Started](#getting-started) section. Feel free to explore and run the workflows in any order you like. 
 
 ### Species-Specific Bulk RNA-Seq Workflows
 
@@ -102,15 +77,17 @@ These notebooks were designed to be run using a virtual machine on a cloud compu
 
 [Single_Cell_RNA-Seq_Tutorials/Single_Cell_RNA-Seq_Mouse/Tutorial_4_scRNA-Seq_mouse.ipynb](Single_Cell_RNA-Seq_Tutorials/Single_Cell_RNA-Seq_Mouse/Tutorial_4_scRNA-Seq_mouse.ipynb) - Mouse workflow starting with read counts.
 
-## Data
+## **Data**
 
 These tutorials use example sequence data procured from the Sequence Read Archive. 
 
-## Support Forum Thanks
+## **Getting Started**
 
-Support forum thanks. For almost any programming project, contributions to online databases and support forums are an invaluable resource that are heavily leaned upon. Thank goodness for those people who take the time to answer silly questions.
+These tutorials were designed to be used on the Amazon Web Services (AWS) Cloud computing platform and implemented using Jupyter Notebook files. Since the workflows require several freely accessible software package (e.g., Trimmomatic, STAR, etc) and many R packages, we chose to use a container where all the software is pre-installed. While having all the software pre-installed saves time, it makes the notebooks specific to a Cloud platform. We have included optional code to install of the software without using the AWS container, but it adds more than 30 minutes of runtime for some of the notebooks.
 
-## Funding
+The NIGMS Sandbox team has information on AWS and running the notebooks in SageMaker using a container.
+
+## **Funding**
 
 Funded by NIH grant number T32 GM132006 the Maine INBRE Program (NIH/NIGMS P20 GM103423).
 
