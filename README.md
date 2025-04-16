@@ -114,24 +114,24 @@ These set of workflows covering data analysis of mouse studies are broken down i
 ## Data
 
 These tutorials use example sequence data procured from the Sequence Read Archive.
-- Mouse Bulk RNA-Seq - Study of how proteins from extracellular fluids from muscle (myokines) and fat tissues (adipokines) can signal between tissues. In this study, the authors examined the impact of the candidate adipokine, prosaposin (*Psad*), on gene expression in primary inguinal white adipose (iWAT) adipocytes. The study included primary iWAT transduced with a PSAP-adenovirus or a GFP-adenovirus control.
+- **Mouse Bulk RNA-Seq** [Tutorials 1 and 2 Mouse] - Study of how proteins from extracellular fluids from muscle (myokines) and fat tissues (adipokines) can signal between tissues. In this study, the authors examined the impact of the candidate adipokine, prosaposin (*Psad*), on gene expression in primary inguinal white adipose (iWAT) adipocytes. The study included primary iWAT transduced with a PSAP-adenovirus or a GFP-adenovirus control.
     - Gene Expression Omnibus: [GSE216094](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE216094)
     - Publication: Mittenbühler MJ, Jedrychowski MP, Van Vranken JG, Sprenger HG, Wilensky S, Dumesic PA, Sun Y, Tartaglia A, Bogoslavski D, A M, Xiao H, Blackmore KA, Reddy A, Gygi SP, Chouchani ET, Spiegelman BM. Isolation of extracellular fluids reveals novel secreted bioactive proteins from muscle and fat tissues. *Cell Metab.* 2023;35(3):535-549.e7. [PMID: 36681077](https://pubmed.ncbi.nlm.nih.gov/36681077/). 
-- Mouse Small RNA-Seq - Study of skeletal muscle fibrosis by profiling microRNA expression in cultured C2C12 myoblast cells treated with TGFB.
+- **Mouse Small RNA-Seq** [Tutorial 3 Mouse] - Study of skeletal muscle fibrosis by profiling microRNA expression in cultured C2C12 myoblast cells treated with TGFB.
     - Gene Expression Omnibus: [GSE274814](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE274814)
-- Mouse Single Cell RNA-Seq - Study of gene expression in single ventricular zone cells in the ganglionic eminences of the mouse forebrain.
+- **Mouse Single Cell RNA-Seq** [Tutorial 4 Mouse] - Study of gene expression in single ventricular zone cells in the ganglionic eminences of the mouse forebrain.
     - Gene Expression Omnibus: [GSE167013](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE167013)
     - Publication: Lee DR, Rhodes C, Mitra A, Zhang Y, Maric D, Dale RK, Petros TJ. Transcriptional heterogeneity of ventricular zone cells in the ganglionic eminences of the mouse forebrain. *Elife.* 2022;11:e71864. [PMID: 35175194](https://pubmed.ncbi.nlm.nih.gov/35175194/); PMCID: PMC8887903.
-- Zebrafish Bulk RNA-Seq - Study of chronic exposure to cortisol in zebrafish larvae to study glucocorticoid-induced developmental programming.
+- **Zebrafish Bulk RNA-Seq** [Tutorial 1 and 2 Zebrafish] - Study of chronic exposure to cortisol in zebrafish larvae to study glucocorticoid-induced developmental programming.
     - Gene Expression Omnibus: [GSE80221](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE80221)
     - Publication: Hartig EI, Zhu S, King BL, Coffman JA. Cortisol-treated zebrafish embryos develop into pro-inflammatory adults with aberrant immune gene regulation. Biol Open. 2016;5(8):1134-41.[PMID: 27444789](https://pubmed.ncbi.nlm.nih.gov/27444789/); PMCID: PMC5004618.
-- Zebrafish Small RNA-Seq - Study of zebrafish cardiac regeneration where the expression of microRNAs at 3 days post ventricular resection are compared to 0 day controls.
+- **Zebrafish Small RNA-Seq** [Tutorial 3 Zebrafish] - Study of zebrafish cardiac regeneration where the expression of microRNAs at 3 days post ventricular resection are compared to 0 day controls.
     - Gene Expression Omnibus: [GSE106884](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE106884) - Just the 6 of the 18 small RNA-Seq samples.
     - Publication: King BL, Rosenstein MC, Smith AM, Dykeman CA, Smith GA, Yin VP. RegenDbase: a comparative database of noncoding RNA regulation of tissue regeneration circuits across multiple taxa. *NPJ Regen Med.* 2018;3:10. [PMID: 29872545](https://pubmed.ncbi.nlm.nih.gov/29872545/); PMCID: PMC5973935.
-- *C. elegans* Bulk RNA-Seq - Study of somatic reprogramming during germline development in *C. elegans* *glh-1* mutants and wild-type controls using gene expression (total mRNA transcriptome) and polysome profiling (translatome) from the Updike Lab at MDI Biological Laboratory.
+- ***C. elegans* Bulk RNA-Seq** [Tutorial 1 and 2 *C. elegans*] - Study of somatic reprogramming during germline development in *C. elegans* *glh-1* mutants and wild-type controls using gene expression (total mRNA transcriptome) and polysome profiling (translatome) from the Updike Lab at MDI Biological Laboratory.
     - Gene Expression Omnibus:  [GSE148737](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE148737)
     - Publication: Rochester JD, Min H, Gajjar GA, Sharp CS, Maki NJ, Rollins JA, Keiper BD, Graber JH, Updike DL. GLH-1/Vasa represses neuropeptide expression and drives spermiogenesis in the *C. elegans* germline. *Dev Biol.* 2022;492:200-211. [PMID: 36273621](https://pubmed.ncbi.nlm.nih.gov/36273621/).
-- *C. elegans* Small RNA-Seq - Study of the microRNAs regulated by the transmembrane transcription factor MYRF-1. In this study, the authors profiled microRNA expression in MYRF-1 mutants compared to wild-type controls.
+- ***C. elegans* Small RNA-Seq** [Tutorial 3 *C. elegans*] - Study of the microRNAs regulated by the transmembrane transcription factor MYRF-1. In this study, the authors profiled microRNA expression in MYRF-1 mutants compared to wild-type controls.
     - Gene Expression Omnibus: [GSE262766](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE262766)
     - Publication: Xu Z, Wang Z, Wang L, Qi YB. Essential function of transmembrane transcription factor MYRF in promoting transcription of miRNA *lin-4* during *C. elegans* development. *Elife.* 2024;12:RP89903. [PMID: 38963411](https://pubmed.ncbi.nlm.nih.gov/38963411/); PMCID: PMC11223767.
 
