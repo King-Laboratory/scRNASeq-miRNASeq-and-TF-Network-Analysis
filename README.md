@@ -58,36 +58,30 @@ These notebooks were designed to be run using a virtual machine on a cloud compu
 
 <img src="images/Cloud_Modules.png" alt="RNA-Seq Analysis Tutorials" width="800">
 
-### Species-Specific Workflows
+## Species-Specific Workflows
 
-#### Mouse
+### Mouse
 
-##### Mouse Bulk RNA-Seq Read Mapping Workflow Using RSEM To Generate Read Counts
+These set of workflows covering data analysis of mouse studies are broken down into four tutorials: bulk RNA-sequencing data (Tutorials 1 and 2), small RNA-sequencing data (Tutorial 3) and Single Cell RNA-sequencing data (Tutorial 4). 
 
-- [Bulk_RNA-Seq_Tutorials/Bulk_RNA-Seq_Mouse/Tutorial_1_alignment_mouse.ipynb](Bulk_RNA-Seq_Tutorials/Bulk_RNA-Seq_Mouse/Tutorial_1_alignment_mouse.ipynb) - Mouse workflow using a subset of reads.
+- **Bulk RNA-Sequencing**
+  - [Tutorial 1 Mouse Subset Data](Bulk_RNA-Seq_Tutorials/Bulk_RNA-Seq_Mouse/Tutorial_1_alignment_mouse.ipynb): This workflow uses a subset of reads with RSEM to generate read counts, and includes steps for data retrieval, read trimming, quality control, read mapping, and counting mapped reads. Data is stored in an AWS S3 bucket, and processed using Jupyter notebooks on SageMaker.
 
-- [Bulk_RNA-Seq_Tutorials/Bulk_RNA-Seq_Mouse/Tutorial_1B_alignment_full_dataset_mouse.ipynb](Bulk_RNA-Seq_Tutorials/Bulk_RNA-Seq_Mouse/Tutorial_1_alignment_full_dataset_mouse.ipynb) - Mouse workflow using the full dataset including downloading reads from SRA.
+   - [Tutorial 1b Mouse Full Data](Bulk_RNA-Seq_Tutorials/Bulk_RNA-Seq_Mouse/Tutorial_1_alignment_full_dataset_mouse.ipynb): This workflow uses the full dataset with RSEM to generate read counts, and includes steps for data retrieval, read trimming, quality control, read mapping, and counting mapped reads. Data are downloaded from the Sequencing Read Archive, and processed using Jupyter notebooks on SageMaker.
 
-##### Mouse Bulk RNA-Seq Analysis of Read Counts Using R/DESeq2
+   - [Tutorial 2 Mouse DEG](Bulk_RNA-Seq_Tutorials/Bulk_RNA-Seq_Mouse/Tutorial_2_DEG_mouse.ipynb): This workflow starts with read count data and uses R/DESeq2 to generate a list of differentially expressed genes. Data are stored in an AWS S3 bucket, and processed using Jupyter notebooks on SageMaker.
+     
+   - [Tutorial 2b Mouse TF Analysis](Bulk_RNA-Seq_Tutorials/Bulk_RNA-Seq_Mouse/Tutorial_2B_NetAct_mouse.ipynb): This workflow starts with read count data and uses NetAct to perform transcription factor network analysis. Data are stored in an AWS S3 bucket, and processed using Jupyter notebooks on SageMaker.
 
-- [Bulk_RNA-Seq_Tutorials/Bulk_RNA-Seq_Mouse/Tutorial_2_DEG_mouse.ipynb](Bulk_RNA-Seq_Tutorials/Bulk_RNA-Seq_Mouse/Tutorial_2_DEG_mouse.ipynb) - Mouse workflow starting with read counts.
+- **small RNA-Sequencing**
+- [Tutorial 3 Mouse](Small_RNA-Seq_Tutorials/Small_RNA-Seq_Mouse/Tutorial_3_miRNA_mouse.ipynb): This workflow starts with read count data, and uses miRGeneDB annotation and R/DESeq2 for read mapping and expression analysis. Data is stored in an AWS S3 bucket, and processed using Jupyter notebooks on SageMaker.
 
-##### Mouse Transcription Factor Network Analysis Using NetAct
+- **Single Cell RNA-Sequencing**
+- [Tutorial 4 Mouse](Single_Cell_RNA-Seq_Tutorials/Single_Cell_RNA-Seq_Mouse/Tutorial_4_scRNA-Seq_mouse.ipynb): This workflow starts with read count data, and uses R/seurat for data analysis. Data is stored in an AWS S3 bucket, and processed using Jupyter notebooks on SageMaker.
 
-- [Bulk_RNA-Seq_Tutorials/Bulk_RNA-Seq_Mouse/Tutorial_2B_NetAct_mouse.ipynb](Bulk_RNA-Seq_Tutorials/Bulk_RNA-Seq_Mouse/Tutorial_2B_NetAct_mouse.ipynb) - Mouse workflow starting with read counts.
+<br>
 
-
-##### Mouse small RNA-Seq Read Mapping and Expression Analysis Using miRGeneDB Annotation and R/DESeq2
-
-- [Small_RNA-Seq_Tutorials/Small_RNA-Seq_Mouse/Tutorial_3_miRNA_mouse.ipynb](Small_RNA-Seq_Tutorials/Small_RNA-Seq_Mouse/Tutorial_3_miRNA_mouse.ipynb) - Mouse workflow starting with read counts.
-
-
-##### Mouse Single Cell RNA-Seq Workflow Using R/seurat
-
-- [Single_Cell_RNA-Seq_Tutorials/Single_Cell_RNA-Seq_Mouse/Tutorial_4_scRNA-Seq_mouse.ipynb](Single_Cell_RNA-Seq_Tutorials/Single_Cell_RNA-Seq_Mouse/Tutorial_4_scRNA-Seq_mouse.ipynb) - Mouse workflow starting with read counts.
-
-
-#### Zebrafish
+### Zebrafish
 
 ##### Zebrafish Bulk RNA-Seq Read Mapping Workflow Using RSEM To Generate Read Counts
 - [Bulk_RNA-Seq_Tutorials/Bulk_RNA-Seq_Mouse/Tutorial_1_alignment_zebrafish.ipynb](Bulk_RNA-Seq_Tutorials/Bulk_RNA-Seq_Zebrafish/Tutorial_1_alignment_zebrafish.ipynb) - Zebrafish workflow using a subset of reads.
