@@ -100,7 +100,7 @@ These set of workflows covering data analysis of *C. elgans* studies are broken 
 ## Data
 
 These tutorials use example sequence data from the Sequence Read Archive.
-- **Mouse Bulk RNA-Seq** [Tutorials [1]((Bulk_RNA-Seq_Tutorials/Bulk_RNA-Seq_Mouse/Tutorial_1_alignment_mouse.ipynb), [1b](Bulk_RNA-Seq_Tutorials/Bulk_RNA-Seq_Mouse/Tutorial_1_alignment_full_dataset_mouse.ipynb), [2](Bulk_RNA-Seq_Tutorials/Bulk_RNA-Seq_Mouse/Tutorial_2_DEG_mouse.ipynb), and [2b](Bulk_RNA-Seq_Tutorials/Bulk_RNA-Seq_Mouse/Tutorial_2B_NetAct_mouse.ipynb) Mouse] - Study of how proteins from extracellular fluids from muscle (myokines) and fat tissues (adipokines) can signal between tissues. In this study, the authors examined the impact of the candidate adipokine, prosaposin (*Psad*), on gene expression in primary inguinal white adipose (iWAT) adipocytes. The study included primary iWAT transduced with a PSAP-adenovirus or a GFP-adenovirus control.
+- **Mouse Bulk RNA-Seq** [Tutorials [1](Bulk_RNA-Seq_Tutorials/Bulk_RNA-Seq_Mouse/Tutorial_1_alignment_mouse.ipynb), [1b](Bulk_RNA-Seq_Tutorials/Bulk_RNA-Seq_Mouse/Tutorial_1_alignment_full_dataset_mouse.ipynb), [2](Bulk_RNA-Seq_Tutorials/Bulk_RNA-Seq_Mouse/Tutorial_2_DEG_mouse.ipynb), and [2b](Bulk_RNA-Seq_Tutorials/Bulk_RNA-Seq_Mouse/Tutorial_2B_NetAct_mouse.ipynb) Mouse] - Study of how proteins from extracellular fluids from muscle (myokines) and fat tissues (adipokines) can signal between tissues. In this study, the authors examined the impact of the candidate adipokine, prosaposin (*Psad*), on gene expression in primary inguinal white adipose (iWAT) adipocytes. The study included primary iWAT transduced with a PSAP-adenovirus or a GFP-adenovirus control.
     - Gene Expression Omnibus: [GSE216094](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE216094)
     - Publication: Mittenbühler MJ, Jedrychowski MP, Van Vranken JG, Sprenger HG, Wilensky S, Dumesic PA, Sun Y, Tartaglia A, Bogoslavski D, A M, Xiao H, Blackmore KA, Reddy A, Gygi SP, Chouchani ET, Spiegelman BM. Isolation of extracellular fluids reveals novel secreted bioactive proteins from muscle and fat tissues. *Cell Metab.* 2023;35(3):535-549.e7. [PMID: 36681077](https://pubmed.ncbi.nlm.nih.gov/36681077/). 
 - **Mouse Small RNA-Seq** [[Tutorial 3 Mouse](Small_RNA-Seq_Tutorials/Small_RNA-Seq_Mouse/Tutorial_3_miRNA_mouse.ipynb)] - Study of skeletal muscle fibrosis by profiling microRNA expression in cultured C2C12 myoblast cells treated with TGFB.
@@ -129,10 +129,6 @@ These tutorials use example sequence data from the Sequence Read Archive.
 These tutorials were designed to be used on the Amazon Web Services (AWS) Cloud computing platform and implemented using Jupyter Notebook files. Since the workflows require several freely accessible software package (e.g., Trimmomatic, STAR, etc) and many R packages, we chose to use a container where all the software is pre-installed. While having all the software pre-installed saves time, it makes the notebooks specific to a Cloud platform. We have included optional code to install of the software without using the AWS container, but it adds more than 30 minutes of runtime for some of the notebooks.
 
 The NIGMS Sandbox team has information on AWS and running the notebooks in SageMaker using a container.
-
-## Support Forum Thanks
-
-Support forum thanks. For almost any programming project, contributions to online databases and support forums are an invaluable resource that are heavily leaned upon. Thank goodness for those people who take the time to answer silly questions.
 
 ## Funding
 
