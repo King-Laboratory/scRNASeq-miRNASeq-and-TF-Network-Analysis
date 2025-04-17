@@ -41,7 +41,7 @@ RNA-Seq using high-throughput sequencing to characterize gene expression. Typica
 
 Our tutorials guide a user through running a particular analysis workflow for a specific dataset for either mouse, zebrafish or *C. elegans*. Each notebook demonstrates a specific workflow with instructions and code for each step in the workflow. These notebooks were designed to be run using AWS SageMaker. For more information on how to do this; navigate to the [Getting Started](#getting-started) section. Feel free to explore and run the workflows in any order you like. 
 
-<img src="images/Cloud_Modules.png" alt="RNA-Seq Analysis Tutorials" width="700">
+<img src="images/Cloud_Modules.png" alt="RNA-Seq Analysis Tutorials" width="500">
 
 ## Species-Specific Workflows
 
