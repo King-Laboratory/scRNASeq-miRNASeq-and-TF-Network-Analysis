@@ -139,7 +139,7 @@ The NIGMS Sandbox team has information on AWS and running the notebooks in SageM
 
 ## Funding
 
-Funded by NIH grant number T32 GM132006 the Maine INBRE Program (NIH/NIGMS P20 GM103423).
+Funded by NIH grant number T32 GM132006 and the Maine INBRE Program (NIH/NIGMS P20 GM103423).
 
 ## **License for Data**
 
