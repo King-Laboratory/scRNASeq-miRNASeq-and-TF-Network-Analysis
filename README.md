@@ -33,9 +33,9 @@ Here is a link to a [YouTube video](https://youtube.com) that gives you an overv
 ## Background
 
 Typical RNA-Seq experiments using high-throughput sequencing to characterize gene expression are as follows:
-+ Bulk RNA-Seq - Characterization of messenger RNA (mRNA) expressed in bulk tissue(s) or cells. As more than 90% of RNA in cells are ribosomal RNA (rRNA), bulk RNA-Seq libraries deplete these rRNA using poly-A tail selection of rRNA depletion.
-+ Small RNA-Seq - Characterization of mature microRNA products or other short RNAs, such as tRNA-dervied fragments, expressed in bulk tissue(s) or cells.
-+ Single-Cell RNA-Seq (scRNA-Seq) - Characterization of messenger RNA (mRNA) expressed in single cells.
++ **Bulk RNA-Seq** - Characterization of messenger RNA (mRNA) expressed in bulk tissue(s) or cells. As more than 90% of RNA in cells are ribosomal RNA (rRNA), bulk RNA-Seq libraries deplete these rRNA using poly-A tail selection of rRNA depletion.
++ **Small RNA-Seq** - Characterization of mature microRNA products or other short RNAs, such as tRNA-dervied fragments, expressed in bulk tissue(s) or cells.
++ **Single-Cell RNA-Seq (scRNA-Seq)** - Characterization of messenger RNA (mRNA) expressed in single cells.
 
 ## Workflows
 
