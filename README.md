@@ -51,7 +51,7 @@ These set of workflows covering data analysis of mouse studies are broken down i
 
 ####  - **Bulk RNA-Sequencing** 
 
-<img src="images/Mouse_workflow.png" alt="Mouse Bulk RNA-Seq Analysis Tutorials" width="700">
+<img src="images/Mouse_workflow.png" alt="Mouse Bulk RNA-Seq Analysis Tutorials" width="900">
    
   - [Tutorial 1 Mouse Subset Data](Bulk_RNA-Seq_Tutorials/Bulk_RNA-Seq_Mouse/Tutorial_1_alignment_mouse.ipynb): This workflow uses a subset of reads with RSEM to generate read counts, and includes steps for data retrieval, read trimming, quality control, read mapping, and counting mapped reads. Data are copied from an AWS S3 bucket, and processed using Jupyter notebooks on SageMaker.
 
