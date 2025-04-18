@@ -137,6 +137,18 @@ These tutorials were designed to be used on the Amazon Web Services (AWS) Cloud 
 
 The NIGMS Sandbox team has information on AWS and running the notebooks in SageMaker using a container.
 
+### Creating a Notebook Instance
+
+Follow the steps shown in the [Using SageMaker Documentation](https://github.com/NIGMS/NIGMS-Sandbox/blob/main/docs/HowToCreateAWSSagemakerNotebooks.md) to create a new notebook instance in Amazon SageMaker.
+
+In step 4, select ml.m5.2xlarge from the dropdown box as the notebook instance type and be especially careful to **enable idle shutdown**.
+
+In step 7, after creating a notebook instance and being in the JupyterLab screen, you will need to download the module content. The easiest way to do this is to clone the repository using the Git command. This can be done by clicking on the git symbol in your JupyterLab environment and pasting the following URL https://github.com/NIGMS/scRNASeq-miRNASeq-and-TF-Network-Analysis.git. This will download our repo, which includes the tutorial files, into a folder called 'scRNASeq-miRNASeq-and-TF-Network-Analysis'. Double click this folder now. Inside you will find all of the tutorial files for each of the species-specific workflows, which you can double click and run.
+
+In step 8, you select a Kernel for the notebook. Please select conda_python3 for this module.
+
+When you are finished running code, stop your notebook to prevent unneeded billing as illustrated in step 9.
+
 ## Funding
 
 Funded by NIH grant number T32 GM132006 and the Maine INBRE Program (NIH/NIGMS P20 GM103423).
